@@ -1,0 +1,51 @@
+.OPTION EXPLICIT
+.Set Cabinet=off
+.Set Compress=off
+.Set MaxDiskSize=CDROM
+.Set ReservePerCabinetSize=6144
+.Set DiskDirectoryTemplate=".."
+.Set CompressionType=MSZIP
+.Set CompressionLevel=7
+.Set CompressionMemory=21
+.Set CabinetNameTemplate="PHELENIXZIGBEE.CAB"
+"Setup.Lst"
+"setup.exe"
+.Set Cabinet=on
+.Set Compress=on
+"PHELENIXZIGBEE.exe"
+"msvbvm60.dll"
+"OLEAUT32.DLL"
+"OLEPRO32.DLL"
+"ASYCFILT.DLL"
+"STDOLE2.TLB"
+"COMCAT.DLL"
+"Vb6fr.dll"
+"MSCOMM32.OCX"
+"MSCOMFR.DLL"
+"COMCT232.OCX"
+"CMCT2FR.DLL"
+"DBLIST32.OCX"
+"DBLSTFR.DLL"
+"COMCTL32.OCX"
+"CMCTLFR.DLL"
+"MSCOMCTL.OCX"
+"MSCMCFR.DLL"
+"MSCOMCT2.OCX"
+"MSCC2FR.DLL"
+"COMCT332.OCX"
+"CMCT3FR.DLL"
+"RICHTX32.OCX"
+"RICHED32.DLL"
+"RCHTXFR.DLL"
+"MSCAL.OCX"
+"MSDATGRD.OCX"
+"msstdfmt.dll"
+"STDFTFR.DLL"
+"DATGDFR.DLL"
+"MSDATLST.OCX"
+"DATLSFR.DLL"
+"COMDLG32.OCX"
+"CMDLGFR.DLL"
+"SETUP1.EXE"
+"VB6STKIT.DLL"
+"ST6UNST.EXE"
